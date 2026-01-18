@@ -10,7 +10,7 @@ router = APIRouter()
 def assess_depression(data: DepressionRequest):
     return get_depression()
 
-@router.get('/heath', tags=['Depression'])
+@router.get('/health', tags=['Depression'])
 def info():
     return {"message": "Service is up and running"}
 
